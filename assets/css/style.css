@@ -5853,3 +5853,9 @@ blockquote span {
     text-align: center;
     font-weight: bold;
 }
+
+.list-unstyled ul li {list-style-type:circle; margin-left: 20px;}
+.font-type span{color:#00005c; font-family: Arial Black;
+}
+
+
