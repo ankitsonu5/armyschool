@@ -5854,7 +5854,36 @@ blockquote span {
     font-weight: bold;
 }
 
-.list-unstyled ul li {list-style-type:circle; margin-left: 20px;}
-.font-type span{color:#00005c; font-family: Arial Black;
+.list-unstyled ul li {
+    list-style-type: circle;
+    margin-left: 20px;
 }
-.font-color strong{color:#000}
+
+.font-type span {
+    color: #00005c;
+    font-family: Arial Black;
+}
+
+.font-color strong {
+    color: #000
+}
+
+img {
+    max-width: 100%;
+}
+
+.gallery {
+    padding: 80px 0;
+}
+
+.gallery img {
+    background-color: #ffffff;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+#gallery-modal .modal-img {
+    width: 100%;
+}
