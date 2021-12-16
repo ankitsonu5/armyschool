@@ -133,7 +133,7 @@
                                         <a class="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#submenu-1-2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">About us</a>
                                         <ul class="sub-menu collapse" id="submenu-1-2">
                                             <li class="nav-item"><a target="_blank" href="javascript:void(0)" href="#">History</a></li>
-                                            <li class="nav-item"><a href="#">Achool's Management</a></li>
+                                            <li class="nav-item"><a href="#">School's Management</a></li>
                                             <li class="nav-item"><a href="#">Vission & Mission Statement</a></li>
                                             <li class="nav-item"><a href="#">Milestones</a></li>
                                             <li class="nav-item"><a href="#">School at a Glance</a></li>
@@ -220,42 +220,89 @@
 
     <main>
 
+
+
+
         <section class="section blog-section blog-list">
             <div class="container">
                 <div class="row">
-                    <h4 class="text-center">Some Text</h4>
+                    <div class="col-md-3">
+                        <ul class="list-group linkd">
+                            <li class="list-group-item active text-center" aria-current="true">
+                                <h4 class="text-white"> ONLINE CLASSES </h4>
+                            </li>
+                            <li class="list-group-item"><a href="#">  Class XII Section 1</a></li>
+                            <li class="list-group-item">
+                                <a href="#">   Class XII Section 2</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">  Class XII Section 3</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#"> Class XI Section 1 </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">  Class XI Section 2</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">   Class XI Section 3</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">    Class X</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">    Class IX</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">    Class VIII</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">    Class VII</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">    Class VI</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">    Class V</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">    Class IV</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">    Class III</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">    Class II</a>
+                            </li> <li class="list-group-item">
+                                <a href="#">    Class I</a>
+                            </li> <li class="list-group-item">
+                                <a href="#">    Instruction</a>
+                            </li>
+                        </ul>
+                    </div>
 
-                    <section class="gallery min-vh-100">
-                        
-                        <div class="container-lg">
-                            
-                            <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
-                                <div class="col">
-                                    <img src="assets/images/img/1.jpg" class="gallery-item" alt="gallery">
-                                </div>
-                                <div class="col">
-                                    <img src="assets/images/img/2.jpg" class="gallery-item" alt="gallery">
-                                </div>
-                                <div class="col">
-                                    <img src="assets/images/img/3.jpg" class="gallery-item" alt="gallery">
-                                </div>
-                                <div class="col">
-                                    <img src="assets/images/img/4.jpg" class="gallery-item" alt="gallery">
-                                </div>
-                                <div class="col">
-                                    <img src="assets/images/img/5.jpg" class="gallery-item" alt="gallery">
-                                </div>
-                                <div class="col">
-                                    <img src="assets/images/img/6.jpg" class="gallery-item" alt="gallery">
-                                </div>
+
+                    <div class="col-md-9">
+                        <div class="card">
+                            <h4 class="card-header cardheadercustom"> Online Classes</h4>
+
+                            <div class="single-blog">
+                                
+                                <div class="blog-content ">
+                                 
+                              
+
+
+
+</div>
                             </div>
                         </div>
-                    </section>
-
-
+                    </div>
                 </div>
-            </div>
+			</div>
         </section>
+
+
 
 
 
@@ -362,26 +409,37 @@
 
     </footer>
 
-    <!-- Modal -->
-    <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <img src="assets/images/img/1.jpg" class="modal-img" alt="modal img">
-                </div>
-            </div>
-        </div>
-    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
-
-
-
+    <script src="assets/js/tiny-slider.js"></script>
+    <script type="text/javascript">
+        //======== Brand Slider
+        tns({
+            container: '.brands-logo-carousel',
+            autoplay: true,
+            autoplayButtonOutput: false,
+            mouseDrag: true,
+            gutter: 5,
+            nav: false,
+            controls: false,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                540: {
+                    items: 3,
+                },
+                768: {
+                    items: 5,
+                },
+                992: {
+                    items: 6,
+                }
+            }
+        });
+    </script>
 
 </body>
 
