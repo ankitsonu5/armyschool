@@ -5887,3 +5887,6 @@ img {
 #gallery-modal .modal-img {
     width: 100%;
 }
+
+#banner {z-index: -99px;}
+.mega-category-menu {z-index:  99999px;}
