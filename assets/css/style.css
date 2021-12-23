@@ -1012,6 +1012,10 @@ ol {
     position: relative
 }
 
+nav {
+    z-index: 99999;
+}
+
 @media only screen and (min-width:768px) and (max-width:991px) {
     .section {
         padding-top: 60px;
@@ -2241,7 +2245,22 @@ ol {
     margin-right: 40px;
     padding-right: 40px;
     cursor: pointer;
-	z-index: 999999;
+    z-index: 999999;
+}
+
+.header .mega-category-menu2 {
+    position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-right: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+    z-index: 999999;
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px) {
@@ -2359,7 +2378,6 @@ ol {
     position: relative;
     width: 100%;
     padding: 8px 30px;
-	
 }
 
 .header .mega-category-menu .sub-category li a i {
@@ -5858,12 +5876,11 @@ blockquote span {
 
 .list-unstyled ul li {
     list-style-type: circle;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 .font-type span {
-    
-    font-family:  Black;
+    font-family: Black;
 }
 
 .font-color strong {
@@ -5890,5 +5907,10 @@ img {
     width: 100%;
 }
 
-#banner {z-index: -99px;}
-.mega-category-menu {z-index:  99999px;}
+#banner {
+    z-index: -99px;
+}
+
+.mega-category-menu {
+    z-index: 99999px;
+}
